@@ -5,3 +5,4 @@ bin/
 !/src/github.com/
 /src/github.com/*
 !/src/github.com/miyohide/
+.vscode/
