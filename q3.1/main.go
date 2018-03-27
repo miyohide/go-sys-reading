@@ -16,5 +16,7 @@ func main() {
 		panic(err)
 	}
 	defer out.Close()
-	io.Copy(out, in)
+	if _, err := io.Copy(out, in); err != nil {
+		panic(err)
+	}
 }
