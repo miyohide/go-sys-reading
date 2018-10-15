@@ -37,4 +37,5 @@ func append() {
 func main() {
 	open()
 	read()
+	append()
 }
